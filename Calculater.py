@@ -14,6 +14,7 @@ class MainApp(App):
         )
         main_layout.add_widget(self.solution)
         buttons = [
+            ["(",")","00"," "], 
             ["7", "8", "9", "/"],
             ["4", "5", "6", "*"],
             ["1", "2", "3", "-"],
